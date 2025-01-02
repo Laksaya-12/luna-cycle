@@ -1,0 +1,450 @@
+
+/* banner start */
+
+#banner{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    /* background-color: aqua; */
+}
+
+#banner .wrapper{
+    width: 80%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: bisque; */
+}
+
+#banner .wrapper .banner_img{
+    width: 100%;
+    height: 80%;
+    /* background-color: yellow; */
+}
+
+#banner .wrapper .banner_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#banner .wrapper .banner_head{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+}
+
+#banner .wrapper .banner_head h1{
+    width: 60%;
+    text-align: center;
+    font-size: var(--fs-40);
+  color: var(--tertiory-color);
+}
+
+/* banner end */
+
+/* our program start */
+
+#our_program{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellowgreen; */
+}
+
+#our_program .wrapper{
+    width: 80%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+#our_program .wrapper h1{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--fs-40);
+    color: var(--tertiory-color);
+    /* background-color: blueviolet; */
+}
+
+#our_program .wrapper .our_program_container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    /* background-color: tomato; */
+}
+
+#our_program .wrapper .our_program_container img{
+    background-color: var(--primary-color);
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+#our_program .wrapper .our_program_container p{
+    height: 20%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: var(--fs-18);
+    color: var(--tertiory-color);
+    /* background-color: rgb(101, 101, 81); */
+}
+#our_program .wrapper .our_program_container .hope{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgb(67, 39, 34); */
+}
+
+#our_program .wrapper .our_program_container .hope img{
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+    object-position: bottom ;
+}
+
+#our_program .wrapper .our_program_container .knowledge{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgb(78, 54, 87); */
+}
+
+#our_program .wrapper .our_program_container .knowledge img{ 
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+    object-position: bottom ;
+}
+
+#our_program .wrapper .our_program_container .wellbeing{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgb(88, 94, 143); */
+}
+
+#our_program .wrapper .our_program_container .wellbeing img{
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+    object-position: bottom ;
+}
+
+/* our program end */
+
+/* awareness start */
+
+#awareness{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+#awareness .wrapper{
+    width: 80%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blanchedalmond; */
+}
+
+#awareness .wrapper .awareness_flower{
+    width: 30%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+
+#awareness .wrapper .awareness_flower img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#awareness .wrapper .awareness_section{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: yellowgreen; */
+}
+
+#awareness .wrapper .awareness_section h1{
+    font-size: var(--fs-40);
+    color: var(--tertiory-color);
+}
+
+#awareness .wrapper .awareness_section p{
+    width: 70%;
+  font-size: var(--fs-18);
+  color: var(--fourth-color);
+  text-align: center;
+}
+
+#awareness .wrapper .awareness_leaf{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(226, 43, 150); */
+}
+
+#awareness .wrapper .awareness_leaf img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* awareness end */
+
+/* workshop stat */
+
+#workshop{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+#workshop .wrapper{
+    width: 80%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blanchedalmond; */
+}
+
+#workshop .wrapper .workshop_img{
+    width: 40%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+#workshop .wrapper .workshop_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#workshop .wrapper .workshop_section{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#workshop .wrapper .workshop_section h1{
+    font-size: var(--fs-40);
+    color: var(--tertiory-color);
+}
+
+#workshop .wrapper .workshop_section p{
+    width: 70%;
+    font-size: var(--fs-18);
+    color: var(--fourth-color);
+    text-align: center;
+}
+
+/* workshop end */
+
+/* social meet start */
+
+#social_meet{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+#social_meet .wrapper{
+    width: 80%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blanchedalmond; */
+}
+
+#social_meet .wrapper .social_img{
+    width: 30%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+
+#social_meet .wrapper .social_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#social_meet .wrapper .social_meet_section{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: yellowgreen; */
+}
+
+#social_meet .wrapper .social_meet_section h1{
+    font-size: var(--fs-40);
+    color: var(--tertiory-color);
+}
+
+#social_meet .wrapper .social_meet_section p{
+    width: 80%;
+  font-size: var(--fs-18);
+  color: var(--fourth-color);
+  text-align: center;
+}
+
+#social_meet .wrapper .meet_img{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(226, 43, 150); */
+}
+
+#social_meet .wrapper .meet_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* social meet end */
+
+
+ #awareness, #workshop, #workshop, #social_meet, footer{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1250px){
+    /* banner start */
+    /* banner end */
+}
+
+
+@media only screen and (max-width: 1250px) {
+
+/* banner start */
+
+#banner .wrapper .banner_img{
+    height: 60%;
+}
+
+#banner .wrapper .banner_head h1{
+    font-size: var(--fs-36);
+}
+
+/* banner end */
+
+
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+/* banner start */
+
+#banner{
+    height: auto;
+}
+
+#banner .wrapper .banner_img{
+    width: 60%;
+}
+
+#banner .wrapper .banner_head h1{
+    font-size: var(--fs-30);
+}
+
+/* banner end */
+
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+    /* banner start */
+    
+    #banner .wrapper .banner_head h1{
+        width: 80%;
+        font-size: var(--fs-26);
+    }
+    
+    /* banner end */
+    
+    }
+    
+
+@media only screen and (max-width: 500px) {
+    
+        /* banner start */
+        
+        #banner .wrapper .banner_head h1{
+            font-size: var(--fs-20);
+        }
+        
+        /* banner end */
+        
+        }

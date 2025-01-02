@@ -1,0 +1,375 @@
+.wrapper {
+  width: 90%;
+  /* background-color: rgb(0, 255, 72); */
+}
+
+/* banner start */
+#banner {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+}
+
+#banner .wrapper {
+  width: 80%;
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: rgb(43, 107, 226); */
+}
+
+/* #banner .wrapper .banner_section .banner_container{
+        width: 100%;
+        height: 100%;
+        background-color: tomato;
+    } */
+
+#banner .wrapper .banner_container {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: yellow; */
+}
+
+#banner .wrapper .banner_container h1 {
+  font-size: var(--fs-40);
+  color: var(--tertiory-color);
+}
+
+#banner .wrapper .banner_container p {
+  width: 70%;
+  font-size: var(--fs-18);
+  color: var(--fourth-color);
+  text-align: center;
+}
+
+#banner .wrapper .tracker_img {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(255, 71, 123); */
+}
+
+#banner .wrapper .tracker_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* banner end */
+
+/* health and well-being start */
+
+#health {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aquamarine; */
+}
+
+#health .wrapper {
+  width: 80%;
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: violet; */
+}
+
+#health .wrapper .health_container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: wheat; */
+}
+
+#health .wrapper .health_container h1 {
+  font-size: var(--fs-40);
+  color: var(--tertiory-color);
+}
+
+#health .wrapper .health_container p {
+  width: 70%;
+  font-size: var(--fs-18);
+  color: var(--fourth-color);
+  text-align: center;
+}
+
+#health .wrapper .health_img {
+  width: 40%;
+  height: 100%;
+  /* background-color: tomato; */
+}
+
+#health .wrapper .health_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* health and well-being end */
+
+/* doctor consult start */
+
+#doctor_consult {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: tan; */
+}
+
+#doctor_consult .wrapper {
+  width: 80%;
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+
+#doctor_consult .wrapper .doctor {
+  width: 30%;
+  height: 100%;
+  /* background-color: violet; */
+}
+
+#doctor_consult .wrapper .doctor img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#doctor_consult .wrapper .doctor_section {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: tomato; */
+}
+
+#doctor_consult .wrapper .doctor_section h1 {
+  font-size: var(--fs-40);
+  color: var(--tertiory-color);
+}
+
+#doctor_consult .wrapper .doctor_section p {
+  width: 80%;
+  font-size: var(--fs-18);
+  color: var(--fourth-color);
+  text-align: center;
+}
+
+#doctor_consult .wrapper .cup {
+  width: 20%;
+  height: 100%;
+  /* background-color: thistle; */
+}
+
+#doctor_consult .wrapper .cup img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* doctor consult end */
+
+/* period essentials start */
+
+#period_essential {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: violet; */
+}
+
+#period_essential .wrapper {
+  width: 80%;
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: bisque; */
+}
+
+#period_essential .wrapper h1 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--fs-40);
+  color: var(--tertiory-color);
+  /* background-color: aqua; */
+}
+
+#period_essential .wrapper .essential_img {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blueviolet; */
+}
+
+#period_essential .wrapper .essential_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#period_essential .wrapper .essential_section {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#period_essential .wrapper .essential_section p {
+  width: 70%;
+  text-align: center;
+  font-size: var(--fs-18);
+  color: var(--fourth-color);
+}
+
+/* period essentials end */
+
+/* flow well start */
+
+#flow-well{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: turquoise; */
+}
+
+#flow-well .wrapper{
+    width: 80%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: bisque; */
+}
+
+#flow-well .wrapper h1{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--fs-40);
+    color: var(--tertiory-color);
+    /* background-color: blueviolet; */
+}
+
+#flow-well .wrapper .flow-well_section p{
+  height: 20%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--fs-18);
+  color: var(--tertiory-color);
+  /* background-color: yellow; */
+}
+
+#flow-well .wrapper .flow-well_section{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    /* background-color: tomato; */
+}
+
+
+
+#flow-well .wrapper .flow-well_section img{
+    background-color: var(--primary-color);
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+#flow-well .wrapper .flow-well_section .hygienic_practice{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(96, 91, 82); */
+}
+
+#flow-well .wrapper .flow-well_section .hygienic_practice img{
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+    object-position: bottom ;
+}
+
+#flow-well .wrapper .flow-well_section .regular_cycle{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(56, 61, 88); */
+}
+
+#flow-well .wrapper .flow-well_section .regular_cycle img{
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+    object-position: bottom ;
+}
+
+#flow-well .wrapper .flow-well_section .menstrual_health{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(82, 96, 91); */
+}
+
+#flow-well .wrapper .flow-well_section .menstrual_health img{
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+    object-position: bottom ;
+}
+
+/* flow well end */
