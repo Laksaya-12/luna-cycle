@@ -11,7 +11,7 @@
 }
 
 #banner .wrapper{
-    width: 80%;
+    width: 80%; 
     height: 95%;
     display: flex;
     align-items: center;
@@ -291,6 +291,7 @@
     color: var(--tertiory-color);
     /* background-color: rgb(101, 101, 81); */
 }
+
 #content_hub .wrapper .content_hub_section .guide{
     width: 30%;
     height: 90%;
@@ -343,6 +344,325 @@
 }
 
 /* content hub end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1100px){
+
+/* banner start */
+
+#banner .wrapper h1{
+    font-size: var(--fs-36);
+}
+
+/* banner end */
+
+/* article strat */
+
+#article .wrapper .article_section h1{
+    font-size: var(--fs-36);
+}
+
+#article .wrapper .article_section p{
+    width: 100%;
+    font-size: var(--fs-16);
+}
+
+/* article end */
+
+/* blogs start */
+
+#blogs .wrapper h1{
+    font-size: var(--fs-36);
+}
+
+#blogs .wrapper .blog_container p{
+    width: 100%;
+    font-size: var(--fs-16);
+}
+
+/* blogs end */
+
+/* video start */
+
+#video .wrapper .video_section h1{
+    font-size: var(--fs-36);
+}
+
+#video .wrapper .video_section p{
+    width: 100%;
+    font-size: var(--fs-16);
+}
+
+/* video end */
+
+/* content hub start */
+
+#content_hub .wrapper h1{
+    font-size: var(--fs-36);
+}
+
+#content_hub .wrapper .content_hub_section p{
+    width: 100%;
+    font-size: var(--fs-16);
+}
+
+/* content hub end */
+
+}
+
+
+@media only screen and (max-width: 1000px){
+
+/* banner start */
+
+#banner{
+    height: auto;
+}
+
+#banner .wrapper{
+    flex-wrap: wrap-reverse;
+}
+
+#banner .wrapper .banner_section{
+    width: 80%;
+}
+
+#banner .wrapper h1{
+    width: 100%;
+}
+
+/* banner end */
+
+/* article start */
+
+#article{
+    height: auto;
+}
+
+#article .wrapper{
+    flex-wrap: wrap;
+}
+
+#article .wrapper .book{
+    width: 60%;
+}
+
+#article .wrapper .article_section{
+    width: 90%;
+}
+
+#article .wrapper .girl_book{
+    width: 60%;
+}
+
+/* article end */
+
+/* blogs start */
+
+#blogs{
+    height: auto;
+}
+
+#blogs .wrapper .blog_img{
+    width: 60%;
+}
+
+/* blogs end */
+
+/* content hub strat */
+
+#content_hub{
+    height: auto;
+}
+
+#content_hub .wrapper .content_hub_section{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#content_hub .wrapper .content_hub_section .guide, #content_hub .wrapper .content_hub_section .experience, #content_hub .wrapper .content_hub_section .learn{
+    width: 50%;
+}
+
+/* content hub end */
+
+}
+
+@media only screen and (max-width: 900px){
+
+    /* banner start */
+
+#banner .wrapper h1{
+    font-size: var(--fs-30);
+}
+
+/* banner end */
+
+/* article strat */
+
+#article .wrapper .article_section h1{
+    font-size: var(--fs-30);
+}
+
+#article .wrapper .article_section p{
+    font-size: var(--fs-14);
+}
+
+/* article end */
+
+/* blogs start */
+
+#blogs .wrapper h1{
+    font-size: var(--fs-30);
+}
+
+#blogs .wrapper .blog_container p{
+    font-size: var(--fs-14);
+}
+
+/* blogs end */
+
+/* video start */
+
+#video{
+    height: auto;
+}
+
+#video .wrapper{
+    flex-wrap: wrap-reverse;
+}
+
+#video .wrapper .video_section{
+    width: 80%;
+}
+
+#video .wrapper .video_img{
+    width: 60%;
+}
+
+#video .wrapper .video_section h1{
+    font-size: var(--fs-30);
+}
+
+#video .wrapper .video_section p{
+    font-size: var(--fs-14);
+}
+
+/* video end */
+
+/* content hub start */
+
+#content_hub .wrapper h1{
+    font-size: var(--fs-30);
+}
+
+#content_hub .wrapper .content_hub_section p{
+    width: 100%;
+    font-size: var(--fs-14);
+}
+
+/* content hub end */
+
+
+}
+
+@media only screen and (max-width: 700px){
+
+    /* banner start */
+
+    #banner .wrapper h1{
+        font-size: var(--fs-26);
+    }
+    
+    /* banner end */
+
+    /* article strat */
+
+#article .wrapper .article_section h1{
+    font-size: var(--fs-26);
+}
+
+/* article end */
+
+/* blogs start */
+
+#blogs .wrapper h1{
+    font-size: var(--fs-26);
+}
+
+/* blogs end */
+
+/* content hub start */
+
+#content_hub .wrapper .content_hub_section .guide, #content_hub .wrapper .content_hub_section .experience, #content_hub .wrapper .content_hub_section .learn{
+    width: 60%;
+}
+
+#content_hub .wrapper h1{
+    font-size: var(--fs-24);
+}
+
+/* content hub end */
+
+    
+}
+
+@media only screen and (max-width: 500px){
+
+    /* banner start */
+
+    #banner .wrapper h1{
+        font-size: var(--fs-20);
+    }
+    
+    /* banner end */
+
+        /* article strat */
+
+#article .wrapper .article_section h1{
+    font-size: var(--fs-20);
+}
+
+/* article end */
+
+/* blogs start */
+
+#blogs .wrapper h1{
+    font-size: var(--fs-20);
+}
+
+/* blogs end */
+
+/* content hub start */
+
+#content_hub .wrapper h1{
+    font-size: var(--fs-20);
+}
+/* content hub end */
+    
+}
+
 
 
 
