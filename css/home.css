@@ -597,6 +597,7 @@ width: 100%;
 }
 
 #pratice .wrapper .pratice_container p{
+    width: 100%;
     font-size: var(--fs-16);
 }
 
@@ -632,6 +633,7 @@ width: 100%;
     }
 
     #menstrual_care .wrapper .menstrual_section .care_container p{
+        width: 100%;
         font-size: var(--fs-16);
     }
 
@@ -648,11 +650,12 @@ width: 100%;
     }
 
     #tracker .wrapper .tracker_container .tracker p{
+        width: 100%;
         font-size: var(--fs-14);
 
-    /* tracker end */
-
     }
+
+        /* tracker end */
 
     /* health and well-being start */
 
@@ -665,7 +668,7 @@ width: 100%;
     }
 
     #well_being .wrapper .well-being_container p{
-        width: 70%;
+        width: 100%;
         font-size: var(--fs-14);
     }
 
