@@ -111,6 +111,7 @@
     text-align: center;
     font-size: var(--fs-18);
     color: var(--tertiory-color);
+    margin: 3px;
     /* background-color: rgb(101, 101, 81); */
 }
 #our_program .wrapper .our_program_container .hope{
@@ -360,7 +361,7 @@
 /* social meet end */
 
 
- /* #awareness, #workshop, #workshop, #social_meet, footer{
+ /* #social_meet, footer{
     display: none;
 } */
 
@@ -374,31 +375,90 @@
 
 
 
+@media only screen and (max-width: 1300px){
+    /* our program start */
 
+    #our_program .wrapper .our_program_container p{
+        font-size: var(--fs-14);
+    }
 
-@media only screen and (max-width: 1250px){
-    /* banner start */
-    /* banner end */
+    /* our program end */
 }
-
 
 @media only screen and (max-width: 1250px) {
+    
+    /* banner start */
+    
+    #banner .wrapper .banner_img{
+        height: 60%;
+    }
+    
+    #banner .wrapper .banner_head h1{
+        font-size: var(--fs-36);
+    }
+    
+    /* banner end */
 
-/* banner start */
+    /* awareness start */
 
-#banner .wrapper .banner_img{
-    height: 60%;
-}
+    #awareness .wrapper .awareness_section h1{
+        font-size: var(--fs-36);
+    }
 
-#banner .wrapper .banner_head h1{
+    #awareness .wrapper .awareness_section p{
+        width: 90%;
+        font-size: var(--fs-16);
+    }
+
+    /* awareness end */
+
+    /* workshop start */
+
+#workshop .wrapper .workshop_section h1{
     font-size: var(--fs-36);
 }
 
-/* banner end */
-
-
+#workshop .wrapper .workshop_section p{
+    font-size: var(--fs-16);
 }
 
+/* workshop end */
+    
+    
+}
+
+@media only screen and (max-width: 1200px) {
+
+    /* our program strat */
+
+    #our_program{
+        height: auto;
+    }
+    
+    #our_program .wrapper .our_program_container{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    #our_program .wrapper h1{
+        font-size: var(--fs-36);
+        margin: 30px;
+    }
+    
+    /* our program end */
+}
+
+@media only screen and (max-width: 1100px) {
+
+/* our program start */
+
+#our_program .wrapper .our_program_container .hope, #our_program .wrapper .our_program_container .knowledge, #our_program .wrapper .our_program_container .wellbeing{
+    width: 60%;
+}
+
+/* our program end */
+
+}
 
 
 @media only screen and (max-width: 900px) {
@@ -419,6 +479,60 @@
 
 /* banner end */
 
+  /* awareness start */
+
+  #awareness{
+    height: auto;
+  }
+
+  #awareness .wrapper{
+    flex-wrap: wrap;
+  }
+
+  #awareness .wrapper .awareness_section h1{
+    font-size: var(--fs-30);
+}
+
+#awareness .wrapper .awareness_flower, #awareness .wrapper .awareness_leaf{
+    width: 80%;
+    height: 80%;
+}
+
+#awareness .wrapper .awareness_section{
+    width: 90%;
+    height: 50%;
+}
+
+/* awareness end */
+
+/* workshop start */
+
+#workshop{
+    height: auto;
+    margin: 25px;
+}
+
+#workshop .wrapper{
+    flex-wrap: wrap-reverse;
+}
+
+#workshop .wrapper .workshop_section h1{
+    font-size: var(--fs-30);
+}
+
+#workshop .wrapper .workshop_section p{
+    font-size: var(--fs-14);
+    margin-bottom: 25px;
+}
+
+#workshop .wrapper .workshop_img{
+    width: 60%;
+}
+
+
+
+/* workshop end */
+
 }
 
 
@@ -433,6 +547,19 @@
     }
     
     /* banner end */
+
+    /* our program start */
+        
+        #our_program .wrapper .our_program_container .hope, #our_program .wrapper .our_program_container .knowledge, #our_program .wrapper .our_program_container .wellbeing{
+            width: 70%;
+        }
+
+        #our_program .wrapper h1{
+            font-size: var(--fs-30);
+        }
+        
+     /* our program end */
+        
     
     }
     
@@ -442,9 +569,22 @@
         /* banner start */
         
         #banner .wrapper .banner_head h1{
-            font-size: var(--fs-20);
+            font-size: var(--fs-30);
+            text-align: center;
         }
         
         /* banner end */
         
+ /* our program start */
+        
+ #our_program .wrapper .our_program_container .hope, #our_program .wrapper .our_program_container .knowledge, #our_program .wrapper .our_program_container .wellbeing{
+    width: 90%;
+}
+
+#awareness .wrapper .awareness_section p{
+    font-size: var(--fs-14);
+}
+
+/* our program end */
+
         }
