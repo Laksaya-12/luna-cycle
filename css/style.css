@@ -176,6 +176,7 @@ header nav .wrapper ul li :hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 30px;
   /* background-color: tomato; */
 }
 
@@ -202,9 +203,9 @@ header nav .wrapper ul li :hover {
     width: 100%;
     height: 80%;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
-    /* background-color: blanchedalmond;*/
+    background-color: blanchedalmond;
 }
 
 #footer .wrapper .footer_section .logo_section .form .susbcribe{
@@ -240,7 +241,7 @@ header nav .wrapper ul li :hover {
 
 #footer .wrapper .footer_section .link_section .about_us{
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   flex-direction: column;
 width: 30%;
@@ -252,7 +253,7 @@ height: 100%;
 width: 30%;
 height: 100%;
 display: flex;
-align-items: center;
+align-items: start;
 justify-content: center;
 flex-direction: column;
 /* background-color: rgb(196, 255, 228); */
@@ -262,7 +263,7 @@ flex-direction: column;
 width: 30%;
 height: 100%;
 display: flex;
-align-items: center;
+align-items: start;
 justify-content: center;
 flex-direction: column;
 /* background-color: rgb(240, 196, 255); */
@@ -282,6 +283,7 @@ flex-direction: column;
 #footer .wrapper .footer_section .link_section .explore ul li a,
 #footer .wrapper .footer_section .link_section .know_more ul li a {
   text-decoration: none;
+  color: var(--fourth-color);
 }
 /* 
 #footer .wrapper .footer_section .link_section .about_us ul,
@@ -445,7 +447,7 @@ footer .wrapper .footer_icon h1 {
   header nav .wrapper ul {
     position: absolute;
     top: 10vh;
-    width: 40%;
+    width: 60%;
     left: -100%;
     height: 50vh;
     flex-direction: column;
