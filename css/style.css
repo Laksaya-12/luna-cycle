@@ -151,7 +151,7 @@ header nav .wrapper ul li :hover {
 
 #footer {
   width: 100%;
-  height: 60vh;
+  height: 7;
   background-color: var(--primary-color);
   display: flex;
   align-items: center;
@@ -162,7 +162,7 @@ header nav .wrapper ul li :hover {
 
 #footer .wrapper {
   width: 80%;
-  height: 100%;
+  height: 95%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -172,12 +172,12 @@ header nav .wrapper ul li :hover {
 
 #footer .wrapper .footer_section {
   width: 100%;
-  height: 70%;
+  height: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
-  /* background-color: tomato; */
+  background-color: tomato;
 }
 
 /* #footer .wrapper .footer_section .logo_section {
@@ -285,12 +285,6 @@ flex-direction: column;
   text-decoration: none;
   color: var(--fourth-color);
 }
-/* 
-#footer .wrapper .footer_section .link_section .about_us ul,
-#footer .wrapper .footer_section .link_section .explore ul,
-#footer .wrapper .footer_section .link_section .know_more ul {
-  list-style: none;
-} */
 
 #footer .wrapper .footer_section .link_section .about_us ul li,
 #footer .wrapper .footer_section .link_section .explore ul li,
@@ -300,8 +294,8 @@ list-style-type: none;
 
 footer .wrapper .footer_icon {
   width: 100%;
-  height: 30%;
-  /* background-color: rgb(223, 151, 101); */
+  height: 20%;
+  background-color: rgb(223, 151, 101);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -340,6 +334,29 @@ footer .wrapper .footer_icon .download_icon a img{
   width: 80%;
   height: 100%;
   background-color: antiquewhite;
+}
+
+footer .wrapper .privacy-policy {  
+  width: 100%;
+  height: 20%;
+  background-color: aqua;
+ 
+}
+#footer .wrapper .privacy-policy  ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+  gap: 150px;
+}
+
+#footer .wrapper .privacy-policy  ul li{
+  list-style-type:none;
+}
+#footer .wrapper .privacy-policy  ul li a{
+
+  text-decoration: none;
+  color: var(--tertiory-color);
 }
 
 
@@ -387,6 +404,12 @@ footer .wrapper .footer_icon .download_icon a img{
 #footer .wrapper .footer_section .link_section {
   width: 100%;
 }
+
+footer .wrapper .privacy-policy {  
+  flex-wrap: wrap;
+}
+
+
 
 /* footer end */
 
