@@ -119,6 +119,7 @@ header nav .wrapper ul li :hover {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  transition-duration: 0.5s;
   /* font-size: var(--fs-20); */
 }
 .sec_btn:hover {
@@ -138,6 +139,7 @@ header nav .wrapper ul li :hover {
   -o-border-radius: 10px;
   font-size: var(--fs-18);
   text-decoration: none;
+  transition-duration: 0.5s;
 }
 .btn:hover {
   background-color: var(--secondary-color);
@@ -181,53 +183,71 @@ header nav .wrapper ul li :hover {
 }
 
 /* #footer .wrapper .footer_section .logo_section {
+width: 30%;
+height: 100%;
+background-color: yellow;
+} */
+
+#footer .wrapper .footer_section .logo_section {
   width: 30%;
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   flex-direction: column;
-  background-color: aqua;
+  /* background-color: blanchedalmond; */
 }
 
-#footer .wrapper .footer_section .logo_section .logo {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    background-color: rgb(221, 255, 154);
-} */
-
-#footer .wrapper .footer_section .logo_section .form {
-    width: 100%;
-    height: 80%;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    /* background-color: blanchedalmond; */
+footer .wrapper .footer_section .logo_section .form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
 }
 
-#footer .wrapper .footer_section .logo_section .form .susbcribe{
-    width: 100%;
-    height: 30%;
-    font-size: var(--fs-18);
-    color: var(--tertiory-color);
-    /* background-color: aquamarine;*/
+footer .wrapper .footer_section .logo_section .form .col-heading {
+  height: 20%;
+  width: 100%;
+  /* background-color: springgreen; */
 }
 
-#footer .wrapper .footer_section .logo_section .form .email{
-    width: 100%;
-    height: 30%;
-    /* background-color: rgb(72, 110, 133);*/
+footer .wrapper .footer_section .logo_section .form form {
+  height: 70%;
+  width: 100%;
+  /* background-color: teal; */
 }
 
-#footer .wrapper .footer_section .logo_section .form .email{
-    width: 100%;
-    height: 30%;
-    /* background-color: rgb(76, 13, 136); */
+footer .wrapper .footer_section .logo_section .form form .message_box {
+  height: 20%;
+  width: 100%;
+  /* background-color: blanchedalmond; */
+  position: relative;
 }
 
+footer
+  .wrapper
+  .footer_section
+  .logo_section
+  .form
+  form
+  .message_box
+  .message_feild {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  /* padding-left: 50px; */
+}
+
+footer .wrapper .footer_section .logo_section .form form .message_box .bi-envelope-fill {
+  position: absolute;
+  top: -40%;
+  left: 5%;
+  font-size: 24px;
+}
 
 #footer .wrapper .footer_section .link_section {
   width: 70%;
@@ -239,34 +259,34 @@ header nav .wrapper ul li :hover {
   /* background-color: rgb(52, 78, 78); */
 }
 
-#footer .wrapper .footer_section .link_section .about_us{
+#footer .wrapper .footer_section .link_section .about_us {
   display: flex;
   align-items: start;
   justify-content: center;
   flex-direction: column;
-width: 30%;
-height: 100%;
-/* background-color: bisque; */
+  width: 25%;
+  height: 100%;
+  /* background-color: bisque; */
 }
 
-#footer .wrapper .footer_section .link_section .explore{
-width: 30%;
-height: 100%;
-display: flex;
-align-items: start;
-justify-content: center;
-flex-direction: column;
-/* background-color: rgb(196, 255, 228); */
+#footer .wrapper .footer_section .link_section .explore {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: rgb(196, 255, 228); */
 }
 
-#footer .wrapper .footer_section .link_section .know_more{
-width: 30%;
-height: 100%;
-display: flex;
-align-items: start;
-justify-content: center;
-flex-direction: column;
-/* background-color: rgb(240, 196, 255); */
+#footer .wrapper .footer_section .link_section .know_more {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: rgb(240, 196, 255); */
 }
 
 #footer .wrapper .footer_section .link_section h4 {
@@ -288,8 +308,8 @@ flex-direction: column;
 
 #footer .wrapper .footer_section .link_section .about_us ul li,
 #footer .wrapper .footer_section .link_section .explore ul li,
-#footer .wrapper .footer_section .link_section .know_more ul li{
-list-style-type: none;
+#footer .wrapper .footer_section .link_section .know_more ul li {
+  list-style-type: none;
 }
 
 footer .wrapper .footer_icon {
@@ -330,50 +350,36 @@ footer .wrapper .footer_icon .download_icon a {
   /* text-decoration: none; */
 }
 
-footer .wrapper .footer_icon .download_icon a img{
+footer .wrapper .footer_icon .download_icon a img {
   width: 80%;
   height: 100%;
   /* background-color: antiquewhite; */
 }
 
-footer .wrapper .privacy-policy {  
+footer .wrapper .privacy-policy {
   width: 100%;
   height: 20%;
   /* background-color: aqua; */
- 
 }
-#footer .wrapper .privacy-policy  ul{
+#footer .wrapper .privacy-policy ul {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 10px;
-  gap: 150px;
+  /* gap: 150px; */
 }
 
-#footer .wrapper .privacy-policy  ul li{
-  list-style-type:none;
+#footer .wrapper .privacy-policy ul li {
+  font-size: var(--fs-18);
+  list-style-type: none;
 }
-#footer .wrapper .privacy-policy  ul li a{
-
+#footer .wrapper .privacy-policy ul li a {
   text-decoration: none;
   color: var(--tertiory-color);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 1100px){
-
+@media only screen and (max-width: 1100px) {
   /* footer strat */
-
 
   #footer .wrapper .footer_section .link_section h4 {
     font-size: var(--fs-18);
@@ -384,78 +390,85 @@ footer .wrapper .privacy-policy {
   }
 
   /* footer end */
-
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1000px) {
+  /* footer start */
 
-/* footer start */
+  #footer {
+    height: auto;
+  }
 
-#footer {
-  height: auto;
+  #footer .wrapper .footer_section {
+    flex-wrap: wrap;
+    height: 40%;
+    gap: 10px;
+  }
+
+  #footer .wrapper .footer_section .link_section {
+    width: 100%;
+  }
+
+  footer .wrapper .privacy-policy {
+    flex-wrap: wrap;
+  }
+
+  /* footer end */
 }
 
-#footer .wrapper .footer_section {
-  flex-wrap: wrap;
-  height: 40%;
-  gap: 10px;
+@media only screen and (max-width: 700px) {
+  /* footer start */
+  #footer .wrapper .footer_section {
+    justify-content: start;
+  }
+
+  #footer .wrapper .footer_section .link_section {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  #footer .wrapper .footer_section .link_section link {
+    width: 100%;
+  }
+
+  #footer .wrapper .footer_section .link_section .about_us {
+    width: 100%;
+  }
+
+  #footer .wrapper .footer_section .link_section .explore {
+    width: 100%;
+  }
+
+  #footer .wrapper .footer_section .link_section .know_more {
+    width: 100%;
+  }
+
+  footer .wrapper .footer_icon h1 {
+    font-size: var(--fs-24);
+  }
+
+  #footer .wrapper .privacy-policy ul {
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+  }
+
+  /* footer end */
 }
 
-#footer .wrapper .footer_section .link_section {
-  width: 100%;
+@media only screen and (max-width: 500px) {
+  /* footer start */
+
+  footer .wrapper .privacy-policy {
+    width: 120%;
+  }
+
+  #footer .wrapper .privacy-policy ul li {
+    font-size: var(--fs-12);
+  }
+
+  /* footer end */
 }
-
-footer .wrapper .privacy-policy {  
-  flex-wrap: wrap;
-}
-
-
-
-/* footer end */
-
-}
-
-@media only screen and (max-width: 700px){
-
-/* footer start */
-
-#footer .wrapper .footer_section .link_section {
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-#footer .wrapper .footer_section .link_section link{
-  width: 100%;
-}
-
-#footer .wrapper .footer_section .link_section .about_us{
-  width: 100%;
-}
-
-#footer .wrapper .footer_section .link_section .explore{
-  width: 100%;
-}
-
-#footer .wrapper .footer_section .link_section .know_more{
-  width: 100%;
-}
-
-footer .wrapper .footer_icon h1 {
-  font-size: var(--fs-24);
-}
-
-/* footer end */
-  
-
-}
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 900px) {
   .nav-icon {
@@ -488,11 +501,3 @@ footer .wrapper .footer_icon h1 {
     left: 0px;
   }
 }
-
-
-
-
-
-
-
-
