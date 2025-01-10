@@ -590,6 +590,7 @@ width: 100%;
 
 #pratice{
     height: auto;
+    margin:20px 0px 10px 0px;
 }
 
 #pratice .wrapper h1{
@@ -661,6 +662,7 @@ width: 100%;
 
     #well_being{
         height: auto;
+        margin: 20px 0px 10px 0px;
     }
     
     #well_being .wrapper h1{

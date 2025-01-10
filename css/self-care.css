@@ -504,7 +504,7 @@
 
 #doctor_consult { 
   height: auto;
-  margin: 25px 0px;
+  margin: 20px 0px 10px 0px;
 }
 
 #doctor_consult .wrapper {
@@ -529,6 +529,7 @@
 
 #period_essential {
   height: auto;
+  margin: 20px 0px 10px 0px;
 }
 
 #period_essential .wrapper .essential_img {
@@ -550,7 +551,7 @@
 
 #flow-well{
   height: auto;
-  margin: 25px 0px;
+  margin: 20px 0px 10px 0px;
 }
 
 #flow-well .wrapper .flow-well_section{
@@ -578,7 +579,7 @@ flex-wrap: wrap;
 
 #health {
   height: auto;
-  margin: 25px 0px;
+  margin: 20px 0px 10px 0px;
 }
 
 #health .wrapper {
