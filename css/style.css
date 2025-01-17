@@ -227,13 +227,7 @@ footer .wrapper .footer_section .logo_section .form form .message_box {
   position: relative;
 }
 
-footer
-  .wrapper
-  .footer_section
-  .logo_section
-  .form
-  form
-  .message_box
+footer .wrapper .footer_section .logo_section .form form .message_box
   .message_feild {
   height: 100%;
   width: 100%;
