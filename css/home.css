@@ -379,7 +379,7 @@ width: 100%;
 
 #pratice .wrapper .pratice_container{
     width: 100%;
-    height: 90%;
+    height: 85%;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -462,8 +462,13 @@ width: 100%;
     -o-border-radius: 40px;
 }
 
-.meet{
-    margin: 25px;
+#pratice .wrapper .meet{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: none; */
 }
 
 /* our pratice end */
@@ -610,6 +615,10 @@ width: 100%;
 
 #pratice .wrapper .pratice_container .understanding, #pratice .wrapper .pratice_container .explore, #pratice .wrapper .pratice_container .social_meet{
     width: 25%;
+}
+
+#pratice .wrapper .meet{
+    padding: 10px 0px;
 }
 /* our pratice end */
 

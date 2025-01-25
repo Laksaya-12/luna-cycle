@@ -121,6 +121,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 5px;
   /* background-color: rgb(67, 39, 34); */
 }
 
@@ -138,6 +139,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 5px;
   /* background-color: rgb(78, 54, 87); */
 }
 
@@ -155,6 +157,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 5px;
   /* background-color: rgb(88, 94, 143); */
 }
 
